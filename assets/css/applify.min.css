@@ -15391,7 +15391,7 @@ body.modal-open {
 
 @media (max-width: 481px) {
   .navbar .navbar-brand {
-    height: 50px;
+    height: 60px;
   }
 }
 
@@ -15678,6 +15678,13 @@ body.modal-open {
 @media (max-width: 481px) {
   .ui-mobile-nav-toggle > div {
     margin: 17px 0;
+  }
+  .navbar .navbar-brand img {
+    height: 38px;
+    margin-top: -20px;
+  }
+  .demo_nom{
+    width: 45%;
   }
 }
 
