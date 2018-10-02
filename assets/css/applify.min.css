@@ -14265,6 +14265,7 @@ body[data-fade_in="on-load"],
   font-size: .9rem;
   margin-bottom: 0;
   line-height: 40px;
+  text-align: center;
 }
 
 .ui-footer .footer-copyright ul.footer-nav {
@@ -14533,7 +14534,7 @@ body[data-fade_in="on-load"],
 
 @media (min-width: 1200px) {
   .ui-hero.hero-lg {
-    padding: 8rem 0;
+    padding: 5rem 0;
   }
 }
 
