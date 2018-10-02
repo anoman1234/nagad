@@ -15431,11 +15431,11 @@ body.modal-open {
 }
 
 .navbar .nav > li > a:hover, .navbar .nav > li > a:active {
-  color: #8089ff;
+  color: #eb212e;
 }
 
 .navbar .nav > li.active > a {
-  color: #8089ff;
+  color: ##eb212e;
 }
 
 .navbar.navbar-dark .nav > li.active > a {
