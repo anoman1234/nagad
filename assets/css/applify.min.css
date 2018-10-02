@@ -14534,7 +14534,7 @@ body[data-fade_in="on-load"],
 
 @media (min-width: 1200px) {
   .ui-hero.hero-lg {
-    padding: 5rem 0;
+    padding: 2.5rem 0;
   }
 }
 
@@ -15405,6 +15405,10 @@ body.modal-open {
   font-size: .95rem;
   font-weight: 600;
 }
+.special_nom{
+  text-align: right;
+  
+}
 
 @media (min-width: 740px) {
   .navbar a {
@@ -15684,7 +15688,7 @@ body.modal-open {
     margin-top: -20px;
   }
   .demo_nom{
-    width: 45%;
+    width: 60%;
   }
 }
 
