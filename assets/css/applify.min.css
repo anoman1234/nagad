@@ -13898,7 +13898,7 @@ body[data-fade_in="on-load"],
 }
 
 .ui-accordion.active .toggle {
-  color: #8089ff;
+  color: #ec1c24;
 }
 
 .ui-accordion.active .toggle::after {
@@ -15407,7 +15407,7 @@ body.modal-open {
 }
 .special_nom{
   text-align: right;
-  
+
 }
 
 @media (min-width: 740px) {
@@ -15677,6 +15677,10 @@ body.modal-open {
 
 .ui-mobile-nav-toggle > div > span:nth-child(4) {
   top: 11.66667px;
+}
+
+.demo_nom{
+  width: 85%;
 }
 
 @media (max-width: 481px) {
