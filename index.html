@@ -20,7 +20,7 @@
 
 <!-- Navbar Fixed + Default -->
 <nav class="navbar navbar-fixed-top transparent navbar-light bg-white">
-	<div class="container">
+	<div class="container container_logo">
 
 		<!-- Navbar Logo -->
 		<a class="ui-variable-logo navbar-brand" href="https://www.nagad.com.bd/" title="Nagad Logo">
@@ -71,7 +71,7 @@
 
 	<!-- Hero -->
 	<div class="ui-hero hero-lg">
-		<div class="container">
+		<div class="container container_img">
 			<div class="row">
 				<!-- <div class="col-sm-12" data-vertical_center="true" data-vertical_offset="16">
 					<!-- <h1 class="heading animate" data-show="fade-in-up-big" data-delay="100">
@@ -83,231 +83,242 @@
 						<a href="page-pricing.html" class="btn ui-gradient-green shadow-xl">Pricing</a>
 					</div>
 				</div> -->
-				<div class="col-sm-12 animate" data-show="fade-in-up" data-delay="400">
-					<img src="assets/img/resources/slider.jpg" alt="Nagad Slider"
-					     data-max_width="1000" class="responsive-on-lg"/>
+				<div class="col-sm-12 col-sm-12img animate" data-show="fade-in-up" data-delay="400">
+					<img src="assets/img/resources/slider.png" alt="Nagad Slider"
+					      class="responsive-on-lg"/>
 				</div>
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</div><!-- .ui-hero -->
 
 
-	<!-- Accordion Showcase Section -->
-				<div id="features" class="section">
-					<div class="container">
-						<!-- Section Heading -->
-						<div class="section-heading center">
-							<h2 class="heading text-indigo">
-								Products and Services
-							</h2>
-							<p class="paragraph">
-								Nagad combines mobile financial and other associated services; it has a diversified product portfolio
-								to cater to all customer segments. Nagad ensures ease of usage through features like Cash In, Cash Out,
-								 Send Money, and Mobile Recharge.
-							</p>
-						</div><!-- .section-heading -->
-						<!-- UI Accordion Showcase -->
-						<div class="ui-accordion-showcase row">
 
-							<!-- Device Slider Column -->
-							<div class="col-lg-6 col-md-5 animate" data-show="fade-in-left">
-								<!-- Device Slider -->
-								<div class="ui-device-slider">
-									<!-- Device Image -->
-									<div class="device">
-										<img src="assets/img/device-slider/device.png" data-uhd alt="Applify - App Landing HTML Template" />
-									</div>
-									<!-- Slider Images -->
-									<div id="device-slider-1" class="screens owl-carousel owl-theme">
-										<div class="item">
-											<img src="assets/img/device-slider/cashin.png" data-uhd alt="Applify - App Landing HTML Template" />
-										</div>
-										<div class="item">
-											<img src="assets/img/device-slider/cashout.png" data-uhd alt="Applify - App Landing HTML Template" />
-										</div>
-										<div class="item">
-											<img src="assets/img/device-slider/send_money.png" data-uhd alt="Applify - App Landing HTML Template" />
-										</div>
-										<div class="item">
-											<img src="assets/img/device-slider/mobile_recharge.png" data-uhd alt="Applify - App Landing HTML Template" />
-										</div>
-									</div>
-								</div><!-- .ui-device-slider -->
-							</div><!-- Device Slider Column -->
+		<!-- Products and Services Section -->
+		<div id="features" class="section">
+			<div class="container">
+				<!-- Section Heading -->
+				<div class="section-heading center">
+					<h2 class="heading text-indigo">
+						Products and Services
+					</h2>
+					<p class="paragraph">
+						Nagad combines mobile financial and other associated services; it has a diversified product portfolio
+						to cater to all customer segments. Nagad ensures ease of usage through features like Cash In, Cash Out,
+						 Send Money, and Mobile Recharge.
+					</p>
+				</div><!-- .section-heading -->
+				<!-- UI Products and Services -->
+				<div class="row ui-tabbed-showcase">
 
-							<!-- Accordion Column -->
-							<div class="col-lg-6 col-md-7" data-vertical_center="true">
-								<!-- Accordion -->
-							<div class="ui-accordion-panel">
-								<!-- Accordion 1  -->
-								<div class="ui-card shadow-md ui-accordion">
-									<h6 class="toggle" data-toggle="accordion-one" data-toggle_screen="1" data-toggle_slider="device-slider-1">
-										<span class=""></span>
+					<!-- Device Slider Column -->
+					<div class="col-md-6 col-sm-5 animate" data-show="fade-in-right">
+						<!-- Device Slider -->
+						<div class="ui-device-slider">
+							<!-- Device Image -->
+							<div class="device">
+								<img src="assets/img/device-slider/device.png"
+								     alt="Applify - App Landing HTML Template"/>
+							</div>
+							<!-- Slider Images -->
+							<div id="device-slider-2" class="screens owl-carousel owl-theme">
+								<div class="item">
+									<img src="assets/img/device-slider/cashin.png"
+									     alt="Cash In"/>
+								</div>
+								<div class="item">
+									<img src="assets/img/device-slider/cashout.png"
+									     alt="Cash Out"/>
+								</div>
+								<div class="item">
+									<img src="assets/img/device-slider/send_money.png"
+									     alt="Send Money"/>
+								</div>
+								<div class="item">
+									<img src="assets/img/device-slider/mobile_recharge.png"
+									     alt="Recharge"/>
+								</div>
+							</div>
+						</div><!-- .ui-device-slider -->
+					</div><!-- Device Slider Column -->
+
+
+
+
+
+					<!-- Tabs Column -->
+					<div class="col-md-6 col-sm-7" data-vertical_center="true">
+						<!-- UI Tabs -->
+						<div class="ui-tabs ui-green">
+							<!-- Nav Tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+								<!-- Nav Tab 1 -->
+								<li role="presentation" class="nav-item">
+									<a class="nav-link active" href="#home" role="tab" data-toggle="tab"
+									   data-toggle_screen="1" data-toggle_slider="device-slider-2">
+										<!-- <span class="icon icon-home"></span>  -->
 										Cash In
-									</h6>
-									<div class="body in" data-accord="accordion-one">
-										<!-- Tab 1 -->
-										<div role="tabpanel" class="tab-pane fade show active" id="home">
-											<p class="sub-heading">Cash in service lets you deposit money into your account through Nagad Uddokta.</p>
-											<p>To deposit money into your Nagad Account:</p>
-											<br>
-											<ul class="ui-checklist">
-												<li>
-													<h6 class="heading">Go to any Nagad Uddokta</h6>
-												</li>
-												<li>
-													<h6 class="heading">Let the Uddokta know the amount you want to Cash In</h6>
-												</li>
-												<li>
-													<h6 class="heading">Write down your Nagad Account Number and the Cash In amount in the Uddokta Register</h6>
-												</li>
-												<li>
-													<h6 class="heading">Pay the amount of money you want to Cash In</h6>
-												</li>
-												<li>
-													<h6 class="heading">In exchange, the Uddokta will send balance to your Nagad Account.</h6>
-												</li>
-												<li>
-													<h6 class="heading">Cash In done!</h6>
-												</li>
-											</ul>
-											<p>Customer and the Uddokta will both get a confirmation message from Nagad. Remember to sign the Uddokta Register before leaving the counter.</p>
-										</div>
-									</div>
-								</div>
-								<!-- Accordion 2  -->
-								<div class="ui-card shadow-md ui-accordion">
-									<h6 class="toggle" data-toggle="accordion-two" data-toggle_screen="2" data-toggle_slider="device-slider-1">
-										<span class=""></span>
+									</a>
+								</li>
+								<!-- Nav Tab 2 -->
+								<li role="presentation" class="nav-item">
+									<a class="nav-link" href="#profile" role="tab" data-toggle="tab" data-toggle_screen="2"
+									   data-toggle_slider="device-slider-2">
+										<!-- <span class="icon icon-user"></span>  -->
 										Cash Out
-									</h6>
-									<div class="body" data-accord="accordion-two">
-										<!-- Tab 2 -->
-										<div role="tabpanel" class="tab-pane fade" id="profile">
-											<p class="sub-heading">Cash out service enables you to withdraw money from your Nagad account.</p>
-											<p>To Cash Out from Customer’s Nagad Account:</p>
-											<br>
-											<ul class="ui-checklist">
-												<li>
-													<h6 class="heading">Go to any Nagad Uddokta</h6>
-												</li>
-												<li>
-													<h6 class="heading">Let the Uddokta know the amount Customer want to Cash Out</h6>
-												</li>
-												<li>
-													<h6 class="heading">Write down Customer’s Nagad Account Number and the amount in the Uddokta Register</h6>
-												</li>
-												<li>
-													<h6 class="heading">Dial *167# on your mobile for the Nagad Mobile Menu</h6>
-												</li>
-												<li>
-													<h6 class="heading">Choose “Cash Out”</h6>
-												</li>
-												<li>
-													<h6 class="heading">Choose “From Uddokta”</h6>
-												</li>
-												<li>
-													<h6 class="heading">Enter Uddokta’s Nagad Account Number (ask the Uddokta)</h6>
-												</li>
-												<li>
-													<h6 class="heading">Enter the amount</h6>
-												</li>
-												<li>
-													<h6 class="heading">Enter Customer’s Nagad Mobile Menu PIN</h6>
-												</li>
-												<li>
-													<h6 class="heading">Cash out done!</h6>
-												</li>
-											</ul>
-										</div>
-									</div>
+									</a>
+								</li>
+								<!-- Nav Tab 3 -->
+								<li role="presentation" class="nav-item">
+									<a class="nav-link" href="#messages" role="tab" data-toggle="tab" data-toggle_screen="3"
+									   data-toggle_slider="device-slider-2">
+										<!-- <span class="icon icon-envelope-letter"></span> -->
+										 Send Money
+									</a>
+								</li>
+								<!-- Nav Tab 4 -->
+								<li role="presentation" class="nav-item">
+									<a class="nav-link" href="#settings" role="tab" data-toggle="tab" data-toggle_screen="4"
+									   data-toggle_slider="device-slider-2">
+										<!-- <span class="icon icon-settings"></span>  -->
+										Mobile Rechange
+									</a>
+								</li>
+							</ul>
+
+							<!-- Tab Panels -->
+							<div class="tab-content">
+								<!-- Tab 1 -->
+								<div role="tabpanel" class="tab-pane fade show active" id="home">
+									<p class="sub-heading">Cash in service lets you deposit money into your account through Nagad Uddokta.</p>
+									<!-- <p>To deposit money into your Nagad Account:</p>
+
+									<ul class="ui-checklist">
+										<li>
+											<h6 class="heading">Go to any Nagad Uddokta</h6>
+										</li>
+										<li>
+											<h6 class="heading">Let the Uddokta know the amount you want to Cash In</h6>
+										</li>
+										<li>
+											<h6 class="heading">Write down your Nagad Account Number and the Cash In amount in the Uddokta Register</h6>
+										</li>
+										<li>
+											<h6 class="heading">Pay the amount of money you want to Cash In</h6>
+										</li>
+										<li>
+											<h6 class="heading">In exchange, the Uddokta will send balance to your Nagad Account.</h6>
+										</li>
+										<li>
+											<h6 class="heading">Cash In done!</h6>
+										</li>
+									</ul>
+									<p>Customer and the Uddokta will both get a confirmation message from Nagad. Remember to sign the Uddokta Register before leaving the counter.</p> -->
 								</div>
-								<!-- Accordion 3  -->
-								<div class="ui-card shadow-md ui-accordion">
-									<h6 class="toggle" data-toggle="accordion-three" data-toggle_screen="3" data-toggle_slider="device-slider-1">
-										<span class=""></span>
-										Send Money
-									</h6>
-									<div class="body" data-accord="accordion-three">
-										<!-- Tab 3 -->
-										<div role="tabpanel" class="tab-pane fade" id="messages">
-											<p class="sub-heading">Send money service allows you to transfer money from your Nagad account to another Nagad account.</p>
-											<p>To send money:</p>
-											<br>
-
-											<ul class="ui-checklist">
-												<li>
-													<h6 class="heading">Go to Customer’s Nagad Mobile Menu by dialing *167#</h6>
-												</li>
-												<li>
-													<h6 class="heading">Choose “Send Money”</h6>
-												</li>
-												<li>
-													<h6 class="heading">Enter the Nagad Account Number Customer want to send money to</h6>
-												</li>
-												<li>
-													<h6 class="heading">Enter the amount Customer want to send</h6>
-												</li>
-												<li>
-													<h6 class="heading">Enter a reference about the transaction. (Do not use more than one word, avoid space or special characters)</h6>
-												</li>
-												<li>
-													<h6 class="heading">Now enter Customer’s Nagad Mobile Menu PIN to confirm the transaction</h6>
-												</li>
-											</ul>
-											<p>Done! Customer and the Receiver both will receive a confirmation message from Nagad</p>
-										</div>
-									</div>
+								<!-- Tab 2 -->
+								<div role="tabpanel" class="tab-pane fade" id="profile">
+									<p class="sub-heading">Cash out service enables you to withdraw money from your Nagad account.</p>
+									<!-- <p>To Cash Out from Customer’s Nagad Account:</p>
+									<ul class="ui-checklist">
+										<li>
+											<h6 class="heading">Go to any Nagad Uddokta</h6>
+										</li>
+										<li>
+											<h6 class="heading">Let the Uddokta know the amount Customer want to Cash Out</h6>
+										</li>
+										<li>
+											<h6 class="heading">Write down Customer’s Nagad Account Number and the amount in the Uddokta Register</h6>
+										</li>
+										<li>
+											<h6 class="heading">Dial *167# on your mobile for the Nagad Mobile Menu</h6>
+										</li>
+										<li>
+											<h6 class="heading">Choose “Cash Out”</h6>
+										</li>
+										<li>
+											<h6 class="heading">Choose “From Uddokta”</h6>
+										</li>
+										<li>
+											<h6 class="heading">Enter Uddokta’s Nagad Account Number (ask the Uddokta)</h6>
+										</li>
+										<li>
+											<h6 class="heading">Enter the amount</h6>
+										</li>
+										<li>
+											<h6 class="heading">Enter Customer’s Nagad Mobile Menu PIN</h6>
+										</li>
+										<li>
+											<h6 class="heading">Cash out done!</h6>
+										</li>
+									</ul> -->
+									<br>
+									
 								</div>
-								<!-- Accordion 4  -->
-								<div class="ui-card shadow-md ui-accordion">
-									<h6 class="toggle" data-toggle="accordion-four" data-toggle_screen="4" data-toggle_slider="device-slider-1">
-										<span class=""></span>
-										Recharge
-									</h6>
-									<div class="body" data-accord="accordion-four">
-										<!-- Tab 4 -->
-										<div role="tabpanel" class="tab-pane fade" id="settings">
-											<p class="sub-heading">Mobile Recharge allows you to recharge mobile airtime through your Nagad account.</p>
-											<p>Follow the steps below to recharge your own mobile phone or for someone else's mobile phone:</p>
-											<br>
-											
-											<ul class="ui-checklist">
-												<li>
-													<h6 class="heading">Go to your Nagad Mobile Menu by dialing *167#</h6>
-												</li>
-												<li>
-													<h6 class="heading">Choose “Mobile recharge”</h6>
-												</li>
-												<li>
-													<h6 class="heading">Choose operator</h6>
-												</li>
-												<li>
-													<h6 class="heading">Choose connection type</h6>
-												</li>
-												<li>
-													<h6 class="heading">Enter the 11-digit mobile number Customer want to buy airtime for</h6>
-												</li>
-												<li>
-													<h6 class="heading">Enter the amount of airtime Customer want to buy</h6>
-												</li>
-												<li>
-													<h6 class="heading">Enter Customer’s Nagad Mobile Menu PIN to confirm</h6>
-												</li>
-											</ul>
+								<!-- Tab 3 -->
+								<div role="tabpanel" class="tab-pane fade" id="messages">
+									<p class="sub-heading">Send money service allows you to transfer money from your Nagad account to another Nagad account.</p>
+									<!-- <p>To send money:</p>
 
-											<p> Done! Customer will receive a confirmation message from Nagad.</p>
-
-										</div>
-									</div>
+									<ul class="ui-checklist">
+										<li>
+											<h6 class="heading">Go to Customer’s Nagad Mobile Menu by dialing *167#</h6>
+										</li>
+										<li>
+											<h6 class="heading">Choose “Send Money”</h6>
+										</li>
+										<li>
+											<h6 class="heading">Enter the Nagad Account Number Customer want to send money to</h6>
+										</li>
+										<li>
+											<h6 class="heading">Enter the amount Customer want to send</h6>
+										</li>
+										<li>
+											<h6 class="heading">Enter a reference about the transaction. (Do not use more than one word, avoid space or special characters)</h6>
+										</li>
+										<li>
+											<h6 class="heading">Now enter Customer’s Nagad Mobile Menu PIN to confirm the transaction</h6>
+										</li>
+									</ul>
+									<p>Done! Customer and the Receiver both will receive a confirmation message from Nagad</p> -->
 								</div>
+								<!-- Tab 4 -->
+								<div role="tabpanel" class="tab-pane fade" id="settings">
+									<p class="sub-heading">Mobile Recharge allows you to recharge mobile airtime through your Nagad account.</p>
+									<!-- <p>Follow the steps below to recharge your own mobile phone or for someone else's mobile phone:</p>
+									<ul class="ui-checklist">
+										<li>
+											<h6 class="heading">Go to your Nagad Mobile Menu by dialing *167#</h6>
+										</li>
+										<li>
+											<h6 class="heading">Choose “Mobile recharge”</h6>
+										</li>
+										<li>
+											<h6 class="heading">Choose operator</h6>
+										</li>
+										<li>
+											<h6 class="heading">Choose connection type</h6>
+										</li>
+										<li>
+											<h6 class="heading">Enter the 11-digit mobile number Customer want to buy airtime for</h6>
+										</li>
+										<li>
+											<h6 class="heading">Enter the amount of airtime Customer want to buy</h6>
+										</li>
+										<li>
+											<h6 class="heading">Enter Customer’s Nagad Mobile Menu PIN to confirm</h6>
+										</li>
+									</ul>
 
-							</div><!-- .ui-accordion-panel -->
-							</div><!-- Accordion Column -->
+									<p> Done! Customer will receive a confirmation message from Nagad.</p> -->
 
-						</div><!-- .row -->
-					</div><!-- .container -->
-				</div><!-- .section -->
+								</div>
+							</div><!-- .tab-content -->
+						</div><!-- .ui-tabs -->
+
+					</div><!-- Tabs Column -->
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</div><!-- .section -->
+
 
 
 
@@ -333,10 +344,11 @@
 								<span>Available on the</span>
 								<span>App Store</span>
 							</a> -->
-							<a class="btn ui-gradient-green btn-google-play btn-download shadow-lg" href="https://play.google.com/store/apps/details?id=com.konasl.nagad.agent">
+							<!-- Arif- for download apps link -->
+							<!-- <a class="btn ui-gradient-green btn-google-play btn-download shadow-lg" href="https://play.google.com/store/apps/details?id=com.konasl.nagad.agent">
 								<span>Available on </span>
 								<span>Google Play</span>
-							</a>
+							</a> -->
 						</div>
 					</div><!-- .section-heading -->
 				</div>
@@ -450,7 +462,7 @@
 					</div><!-- .section-heading -->
 				</div>
 				<div class="col-lg-6">
-					<img src="assets/img/resources/AboutUs.jpg"
+					<img src="assets/img/resources/AboutUs.png"
 					     class="responsive-on-md shadow-xl" alt="About Nagad"/>
 				</div>
 			</div>
@@ -468,11 +480,17 @@
 					<img src="assets/img/logo/nagad_logo_white.png" alt="Nagad Logo">
 				</div>
 				<h2 class="heading">Contact Us</h2>
+
 				<p class="paragraph">
+					<span class="icon icon-phone"></span>
 					Call Us <u>16167</u> or <u>096 096 16167</u>
 					<br>
+					<span class="icon icon-envelope"></span>
+
 					<u>info@nagad.com.bd</u>
 					<br>
+					<span class="icon icon-home"></span>
+
 					Delta Dahlia Tower (Level 13 and 14), 36 Kemal Ataturk Avenue, Banani, Dhaka -1213
 
 				</p>
