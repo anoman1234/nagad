@@ -15715,14 +15715,14 @@ body.modal-open {
   .container_logo{
     margin-bottom: 11px;
   }
-}
+
   .special_nom{
     margin-top: 19px;
   }
   .ui-mobile-nav-toggle{
     margin-top: 17px;
   }
-
+}
 .ui-mobile-nav-toggle.active > div > span:nth-child(1) {
   top: 9.9999999px;
   width: 0%;
